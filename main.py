@@ -43,6 +43,7 @@ if __name__ == '__main__':
                     ChangeDirectionSprite(SNAKE.sprites()[0].rect.x, SNAKE.sprites()[0].rect.y, 0, 1)
             if i.type == pygame.USEREVENT+1:
                 SNAKE.update()
+                
         APPLES.update()
         CHANGE_DIRECTION.update()
 
